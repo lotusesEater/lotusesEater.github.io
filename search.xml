@@ -1,46 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2024/01/02/hello-world/"/>
-      <url>/2024/01/02/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>代码演示</title>
-      <link href="/2024/01/01/codetest/test/"/>
-      <url>/2024/01/01/codetest/test/</url>
-      
-        <content type="html"><![CDATA[<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">highlight_theme:</span> <span class="string">light</span></span><br><span class="line"><span class="attr">post_meta:</span></span><br><span class="line">  <span class="attr">page:</span></span><br><span class="line">    <span class="attr">date_type:</span> <span class="string">both</span> <span class="comment"># created创建日期 or updated更新日期 or both都展示</span></span><br><span class="line">    <span class="attr">date_format:</span> <span class="string">relative</span> <span class="comment"># date/relative 绝对/相对日期</span></span><br><span class="line">    <span class="attr">categories:</span> <span class="literal">true</span> <span class="comment"># true or false 主页是否显示分类</span></span><br><span class="line">    <span class="attr">tags:</span> <span class="literal">true</span> <span class="comment"># true or false 主页是否显示标签</span></span><br><span class="line">    <span class="attr">label:</span> <span class="literal">true</span> <span class="comment"># true or false 是否显示描述性文字</span></span><br><span class="line">  <span class="attr">post:</span></span><br><span class="line">    <span class="attr">date_type:</span> <span class="string">both</span> <span class="comment"># created创建日期 or updated更新日期 or both都展示</span></span><br><span class="line">    <span class="attr">date_format:</span> <span class="string">relative</span> <span class="comment"># date/relative 绝对/相对日期</span></span><br><span class="line">    <span class="attr">categories:</span> <span class="literal">true</span> <span class="comment"># true or false 主页是否显示分类</span></span><br><span class="line">    <span class="attr">tags:</span> <span class="literal">true</span> <span class="comment"># true or false 主页是否显示标签</span></span><br><span class="line">    <span class="attr">label:</span> <span class="literal">true</span> <span class="comment"># true or false 是否显示描述性文字</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Test</title>
-      <link href="/2023/12/28/Test/"/>
-      <url>/2023/12/28/Test/</url>
-      
-        <content type="html"><![CDATA[<p>测试测试测试测试传输层测试</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>文章设置</title>
+    <url>/2023/12/28/Test/</url>
+    <content><![CDATA[<p>title: 文章标题<br>
+date: 时间 2024-1-1 10:10:45<br>
+tags: 标签 hexo<br>
+sticky: 置顶 1</p>
+<p><a href="https://kissingfire123.github.io/2022/02/18_%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8Fkatex%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95%E6%80%BB%E7%BB%93/#5%E5%BE%AE%E7%A7%AF%E5%88%86%E8%BF%90%E7%AE%97%E7%AC%A6">https://kissingfire123.github.io/2022/02/18_数学公式katex常用语法总结/#5微积分运算符</a></p>
+<p><a href="https://katex.org/docs/supported">https://katex.org/docs/supported</a></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo fence="true">∥</mo><mtable rowspacing="0.16em" columnalign="center center" columnspacing="1em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mi>a</mi></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mi>b</mi></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mi>c</mi></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mi>d</mi></mstyle></mtd></mtr></mtable><mo fence="true">∥</mo></mrow><annotation encoding="application/x-tex">\begin{Vmatrix}
+   a &amp; b \\
+   c &amp; d
+\end{Vmatrix}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.4em;vertical-align:-0.95em;"></span><span class="minner"><span class="mopen"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.45em;"><span style="top:-3.45em;"><span class="pstrut" style="height:4.4em;"></span><span style="width:0.556em;height:2.400em;"><svg xmlns="http://www.w3.org/2000/svg" width='0.556em' height='2.400em' viewBox='0 0 556 2400'><path d='M145 15 v585 v1200 v585 c2.667,10,9.667,15,21,15
+c10,0,16.667,-5,20,-15 v-585 v-1200 v-585 c-2.667,-10,-9.667,-15,-21,-15
+c-10,0,-16.667,5,-20,15z M188 15 H145 v585 v1200 v585 h43z
+M367 15 v585 v1200 v585 c2.667,10,9.667,15,21,15
+c10,0,16.667,-5,20,-15 v-585 v-1200 v-585 c-2.667,-10,-9.667,-15,-21,-15
+c-10,0,-16.667,5,-20,15z M410 15 H367 v585 v1200 v585 h43z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.95em;"><span></span></span></span></span></span></span><span class="mord"><span class="mtable"><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.45em;"><span style="top:-3.61em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">a</span></span></span><span style="top:-2.41em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">c</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.95em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.45em;"><span style="top:-3.61em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">b</span></span></span><span style="top:-2.41em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">d</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.95em;"><span></span></span></span></span></span></span></span><span class="mclose"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.45em;"><span style="top:-3.45em;"><span class="pstrut" style="height:4.4em;"></span><span style="width:0.556em;height:2.400em;"><svg xmlns="http://www.w3.org/2000/svg" width='0.556em' height='2.400em' viewBox='0 0 556 2400'><path d='M145 15 v585 v1200 v585 c2.667,10,9.667,15,21,15
+c10,0,16.667,-5,20,-15 v-585 v-1200 v-585 c-2.667,-10,-9.667,-15,-21,-15
+c-10,0,-16.667,5,-20,15z M188 15 H145 v585 v1200 v585 h43z
+M367 15 v585 v1200 v585 c2.667,10,9.667,15,21,15
+c10,0,16.667,-5,20,-15 v-585 v-1200 v-585 c-2.667,-10,-9.667,-15,-21,-15
+c-10,0,-16.667,5,-20,15z M410 15 H367 v585 v1200 v585 h43z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.95em;"><span></span></span></span></span></span></span></span></span></span></span></span></p>
+<p><img src="https://lin64850.github.io/img/beiji.jpg" alt="背景"></p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">highlight_theme:</span> <span class="string">light</span></span><br><span class="line"><span class="attr">post_meta:</span></span><br><span class="line">  <span class="attr">page:</span></span><br><span class="line">    <span class="attr">date_type:</span> <span class="string">both</span> <span class="comment"># created创建日期 or updated更新日期 or both都展示</span></span><br><span class="line">    <span class="attr">date_format:</span> <span class="string">relative</span> <span class="comment"># date/relative 绝对/相对日期</span></span><br><span class="line">    <span class="attr">categories:</span> <span class="literal">true</span> <span class="comment"># true or false 主页是否显示分类</span></span><br><span class="line">    <span class="attr">tags:</span> <span class="literal">true</span> <span class="comment"># true or false 主页是否显示标签</span></span><br><span class="line">    <span class="attr">label:</span> <span class="literal">true</span> <span class="comment"># true or false 是否显示描述性文字</span></span><br><span class="line">  <span class="attr">post:</span></span><br><span class="line">    <span class="attr">date_type:</span> <span class="string">both</span> <span class="comment"># created创建日期 or updated更新日期 or both都展示</span></span><br><span class="line">    <span class="attr">date_format:</span> <span class="string">relative</span> <span class="comment"># date/relative 绝对/相对日期</span></span><br><span class="line">    <span class="attr">categories:</span> <span class="literal">true</span> <span class="comment"># true or false 主页是否显示分类</span></span><br><span class="line">    <span class="attr">tags:</span> <span class="literal">true</span> <span class="comment"># true or false 主页是否显示标签</span></span><br><span class="line">    <span class="attr">label:</span> <span class="literal">true</span> <span class="comment"># true or false 是否显示描述性文字</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+  </entry>
+  <entry>
+    <title>记事簿</title>
+    <url>/2024/01/10/note/</url>
+    <content><![CDATA[<figure class="highlight v"><figcaption><span>村代码</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="number">140882001001</span></span><br><span class="line"><span class="number">140882001002</span></span><br><span class="line"><span class="number">140882001003</span></span><br><span class="line"><span class="number">140882001004</span></span><br><span class="line"><span class="number">140882001005</span></span><br><span class="line"><span class="number">140882001006</span></span><br><span class="line"><span class="number">140882001007</span></span><br><span class="line"><span class="number">140882001008</span></span><br><span class="line"><span class="number">140882001010</span></span><br><span class="line"><span class="number">140882001200</span></span><br><span class="line"><span class="number">140882001201</span></span><br><span class="line"><span class="number">140882001202</span></span><br><span class="line"><span class="number">140882001204</span></span><br><span class="line"><span class="number">140882001205</span></span><br><span class="line"><span class="number">140882001206</span></span><br><span class="line"><span class="number">140882001207</span></span><br><span class="line"><span class="number">140882001208</span></span><br><span class="line"><span class="number">140882001210</span></span><br><span class="line"><span class="number">140882001211</span></span><br><span class="line"><span class="number">140882001214</span></span><br><span class="line"><span class="number">140882001219</span></span><br><span class="line"><span class="number">140882002004</span></span><br><span class="line"><span class="number">140882002016</span></span><br><span class="line"><span class="number">140882002017</span></span><br><span class="line"><span class="number">140882002020</span></span><br><span class="line"><span class="number">140882002200</span></span><br><span class="line"><span class="number">140882002204</span></span><br><span class="line"><span class="number">140882002205</span></span><br><span class="line"><span class="number">140882002207</span></span><br><span class="line"><span class="number">140882002212</span></span><br><span class="line"><span class="number">140882002213</span></span><br><span class="line"><span class="number">140882003200</span></span><br><span class="line"><span class="number">140882003203</span></span><br><span class="line"><span class="number">140882003204</span></span><br><span class="line"><span class="number">140882003205</span></span><br><span class="line"><span class="number">140882003207</span></span><br><span class="line"><span class="number">140882004200</span></span><br><span class="line"><span class="number">140882004205</span></span><br><span class="line"><span class="number">140882004208</span></span><br><span class="line"><span class="number">140882004209</span></span><br><span class="line"><span class="number">140882100201</span></span><br><span class="line"><span class="number">140882100202</span></span><br><span class="line"><span class="number">140882100212</span></span><br><span class="line"><span class="number">140882100214</span></span><br><span class="line"><span class="number">140882100217</span></span><br><span class="line"><span class="number">140882100222</span></span><br><span class="line"><span class="number">140882101200</span></span><br><span class="line"><span class="number">140882101205</span></span><br><span class="line"><span class="number">140882101206</span></span><br><span class="line"><span class="number">140882101207</span></span><br><span class="line"><span class="number">140882101209</span></span><br><span class="line"><span class="number">140882101211</span></span><br><span class="line"><span class="number">140882101221</span></span><br><span class="line"><span class="number">140882102200</span></span><br><span class="line"><span class="number">140882200200</span></span><br><span class="line"><span class="number">140882200206</span></span><br><span class="line"><span class="number">140882200211</span></span><br><span class="line"><span class="number">140882200214</span></span><br><span class="line"><span class="number">140882200215</span></span><br><span class="line"><span class="number">140882203200</span></span><br><span class="line"><span class="number">140882400498</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight ml"><figcaption><span>名录划分</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="number">1</span>	农业</span><br><span class="line"><span class="number">5</span>	农、林、牧、渔业专业及辅助性活动</span><br><span class="line"><span class="number">6</span>	工业</span><br><span class="line"><span class="number">47</span>	建筑业</span><br><span class="line"><span class="number">51</span>	批发零售业</span><br><span class="line"><span class="number">53</span>	交通运输、仓储和邮政业</span><br><span class="line"><span class="number">61</span>	住宿和餐饮业</span><br><span class="line"><span class="number">63</span>	服务业</span><br><span class="line"><span class="number">66</span>	金融业</span><br><span class="line"><span class="number">70</span>	房地产业</span><br><span class="line"></span><br><span class="line">=<span class="type">IFS</span>(<span class="type">C2</span>&gt;<span class="string">&quot;70&quot;</span>,<span class="string">&quot;服务业&quot;</span>,<span class="type">C2</span>=<span class="string">&quot;70&quot;</span>,<span class="string">&quot;房地产业&quot;</span>,<span class="type">C2</span>&gt;=<span class="string">&quot;66&quot;</span>,<span class="string">&quot;金融业&quot;</span>,<span class="type">C2</span>&gt;=<span class="string">&quot;63&quot;</span>,<span class="string">&quot;服务业&quot;</span>,<span class="type">C2</span>&gt;=<span class="string">&quot;61&quot;</span>,<span class="string">&quot;住宿和餐饮业&quot;</span>,<span class="type">C2</span>&gt;=<span class="string">&quot;53&quot;</span>,<span class="string">&quot;交通运输、仓储和邮政业&quot;</span>,<span class="type">C2</span>&gt;=<span class="string">&quot;51&quot;</span>,<span class="string">&quot;批发零售业&quot;</span>,<span class="type">C2</span>&gt;=<span class="string">&quot;47&quot;</span>,<span class="string">&quot;建筑业&quot;</span>,<span class="type">C2</span>&gt;=<span class="string">&quot;06&quot;</span>,<span class="string">&quot;工业&quot;</span>,<span class="type">C2</span>=<span class="string">&quot;05&quot;</span>,<span class="string">&quot;农、林、牧、渔业专业及辅助性活动&quot;</span>,<span class="type">C2</span>&gt;=<span class="string">&quot;01&quot;</span>,<span class="string">&quot;农业&quot;</span>)  // 类型判断</span><br><span class="line"></span><br><span class="line">=<span class="type">COUNTIF</span>(<span class="type">E</span>:<span class="type">E</span>,<span class="type">E1</span>) // 计数</span><br></pre></td></tr></table></figure>
+<figure class="highlight excel"><figcaption><span>BAT/CMD</span></figcaption><table><tr><td class="code"><pre><span class="line">Excel </span><br><span class="line">	ctrl shift 上箭头；输入 Ctrl+enter填充全部；&amp;拼接</span><br><span class="line">	<span class="built_in">left</span>截取函数    <span class="built_in">countif</span>计数判断  <span class="built_in">MID</span>截取中间数值  <span class="built_in">TEXT</span>(x,<span class="string">&quot;yyyymmdd&quot;</span>)统一格式 <span class="built_in">VLOOKUP</span>比对匹配返回</span><br><span class="line">	<span class="built_in">SUBSTITUTE</span>()替换字符串</span><br><span class="line">    大表中<span class="built_in">vlookup</span>（大表关键字，小表数据【关键字在首列】，返回的匹配列数，<span class="built_in">FALSE</span>【精确查找】）</span><br><span class="line">	</span><br><span class="line">BAT/CMD</span><br><span class="line">	MD创建目录 <span class="string">&quot;C:\Users\统计局\Desktop\kv-project\名&quot;</span></span><br><span class="line">	pause暂停</span><br><span class="line">	显示目录 DIR   重定向  覆盖&gt; 追加&gt;&gt;    通配符 * ? 如*.txt</span><br><span class="line">	DIR /b当前全部文件名 /s绝对路径  &gt;&gt; name.txt  替换</span><br><span class="line">	REN重命名 旧.txt 新.txt</span><br><span class="line">	COPY复制  移动MOVE /-y确定覆盖  删除DEL /s递归  /q直接删不提示</span><br><span class="line">	echo off执行时不输出命令  @echo %<span class="built_in">time</span>% %<span class="built_in">date</span>% &gt;&gt; 记录.txt</span><br><span class="line">	Win10系统开机启动文件夹路径<span class="number">1</span>. C：\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp <span class="number">2</span>.运行 输入 she<span class="symbol">ll:Co</span>mmon Startup  bat文件放入即可</span><br><span class="line">	计划任务</span><br><span class="line"></span><br><span class="line">myzx <span class="number">03595031128</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">type</span> nul&gt;<span class="number">1</span>.txt</span><br><span class="line"><span class="number">140882001</span> <span class="number">140882002</span> <span class="number">140882003</span> <span class="number">140882004</span> <span class="number">140882100</span> <span class="number">140882101</span> <span class="number">140882102</span> <span class="number">140882200</span> <span class="number">140882203</span> <span class="number">140882400</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2024/01/10/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>搭建hexo博客</title>
+    <url>/2024/01/03/study/</url>
+    <content><![CDATA[<p>Eureka  <a href="https://lin64850.github.io/">https://lin64850.github.io/</a><br>
+主题 <a href="https://butterfly.js.org/">https://butterfly.js.org/</a></p>
+<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <tags>
+        <tag>hexo教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>每日一言</title>
+    <url>/2024/01/03/quote/</url>
+    <content><![CDATA[<p>一个人的价值, 在于他贡献了什么, 而不在于他获得了什么!	@爱因斯坦<br>
+你若喜爱你自己的价值, 你就得给世界创造价值!	@歌德<br>
+未经反思自省的人生不值得去过 The unexamined life is not worth living. @苏格拉底 (哲学之父)<br>
+大多数人在20到30岁就已经过完自己的一生; 一过了这个年龄段, 他们就变成自己的影子, 以后的生命只是在不断重复自己…	@&lt;约翰.克里斯朵夫&gt;罗曼.罗兰 (作家 诺贝尔奖得主)<br>
+活着, 如同生命最后一天般活着; 学习, 如同永远活着般学习!	@圣雄甘地 (印度国父)<br>
+人所面对的绝境, 在很多情况下都不是生存的绝境, 而是[精神]的绝境!<br>
+世上只有一种英雄主义 – 就是在认清生活的真相之后依然热爱生活 @罗曼.罗兰 (作家 诺贝尔奖得主)<br>
+人的一切痛苦都是源于对自己无能的愤怒 @王小波 (作家)<br>
+Stay hungry. Stay foolish. @乔布斯引自&lt;全球概览&gt;	<br>
+人生中最大的两个财富是: 你的[才华]和你的[时间];	才华越来越多而时间越来越少;我们的一生就是用时间来换取才华;<br>
+拥有追随自己内心与直觉的勇气 – 你的内心与直觉多少已经知道你真正想要成为什么样的人	Have the courage to follow your heart and intuition. They somehow already know what you truly want to become. @乔布斯	<br>
+善良比聪明重要 – 聪明是一种天赋, 而善良是一种选择	Cleverness is a gift, kindness is a choice.	@贝佐斯 (亚马逊公司创始人)<br>
+我每天都自问: ‘如果今天是我生命的最后一天, 我还会做今天要做的事情吗?’ 如果连续很多天得到[否定]的回答, 那我就需要作出一些改变了; @乔布斯<br>
+人生就像骑单车, 要保持平衡必须往前走 @爱因斯坦<br>
+预测未来最好的方法就是去创造未来 @林肯 (美国前总统)<br>
+没有人可以回到过去, 重新开始; 但谁都可以从现在开始, 书写一个全然不同的结局!<br>
+人生最大的痛苦不是失败 而是没有经历自己想要经历的一切<br>
+许多人所谓的成熟, 不过是被习俗磨去了棱角, 变得世故而实际了; 那不是成熟, 而是精神的早衰和个性的夭亡!	真正的成熟, 应当是独特个性的形成, 真实自我的发现, 精神上的结果和丰收; @&lt;在世纪的转折点上&gt;尼采 (哲学家 思想家)<br>
+这辈子没法做太多的事情, 所以每一件都要做到精彩绝伦!	@乔布斯<br>
+你的时间有限, 所以不要浪费时间去重复别人的生活!	Your time is limited, so don<code>t waste it living someone else</code>s life.	@乔布斯	<br>
+每个人出生的时候都是原创 可悲的是很多人渐渐都成了盗版<br>
+时间会刺破青春的华丽精致 会把平行线刻上美人的额角 会吃掉稀世之珍和天生丽质 什么都逃不过它横扫的镰刀	@莎士比亚<br>
+死亡是生命中最好的发明 – 它把旧的清除以便给新的让路 @乔布斯<br>
+一年之计 莫如树谷 十年之计 莫如树木	终身之计 莫如树人 @&lt;管子&gt;	<br>
+非淡泊无以明志 非宁静无以致远 @&lt;淮南子&gt;刘安<br>
+你若不想做, 总能找到借口 你若想做, 总会找到方法	@阿拉伯谚语<br>
+想得到你从未拥有过的东西 就必须做你从未做过的事情<br>
+你若失去了财产, 你只失去了一点儿; 你若失去了荣誉, 你就失去了许多; 你若失去了勇气, 你就把一切都失去了! @歌德<br>
+那不能杀死我的, 使我更强! What does not kill me, makes me stronger. @尼采 (哲学家 思想家)<br>
+对爱情的渴望, 对知识的追求, 对人类苦难不可遏制的同情心, 这三种纯洁而无比强烈的激情支配着我的一生; Three passions, simple but overwhelmingly strong, have governed my life: the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind.	@&lt;我为什么而活着&gt;罗素 (哲学家 数学家 思想家)<br>
+围在城里的人想逃出来, 城外的人想冲进去; 对婚姻也罢, 职业也罢, 人生的愿望大都如此! @&lt;围城&gt;钱钟书<br>
+授人以鱼不如授人以渔! 授人以鱼只救一时之急, 授人以渔则可解一生之需!<br>
+兴趣是最好的老师 @爱因斯坦<br>
+知识上的投资总能得到最好的回报 @富兰克林 (美国开国元勋 物理学家 作家)<br>
+学习不是填满水桶, 而是点燃火焰!	Education is not the filling of a pail but the lighting of a fire. @叶芝 (爱尔兰诗人)<br>
+我唯一能确定的就是自己的[无知] I know nothing except the fact of my ignorance. @苏格拉底 (哲学之父)<br>
+真正的无知[不是]知识的贫乏 而是拒绝获取知识 @波普尔 (哲学家 思想家)<br>
+读书是在别人思想的帮助下建立自己的思想	@尼古拉.鲁巴金 (作家)<br>
+不要盲目地崇拜任何权威 – 因为你总能找到相反的权威 @罗素 (哲学家 数学家 思想家)<br>
+不必为自己的独特看法而害怕 因为我们现在所接受的常识都曾是独特看法 @&lt;自由思想的十诫&gt;罗素 (哲学家 数学家 思想家)<br>
+仅仅凭借信仰跟从就等于[盲从] To follow by faith alone is to follow blindly. @富兰克林 (美国开国元勋 物理学家 作家)<br>
+想象力比知识更重要!	因为知识是有限的, 而想象力概括着世界的一切, 推动着进步, 并且是知识进化的源泉 @爱因斯坦<br>
+要打破人的偏见比崩解一个原子还难! @爱因斯坦<br>
+大多数人宁愿相信[美丽的谎言] 而不愿意直面[丑陋的真相]<br>
+你要按你所想的去生活 否则你迟早会按你所生活的去想<br>
+知人者智 自知者明 胜人者有力 自胜者强 @&lt;道德经&gt;<br>
+大多数人宁愿死去也不愿思考,事实上他们也确实到死都没有思考 @罗素 (哲学家 数学家 思想家)<br>
+对知识分子而言, 成为思维的精英比成为道德的精英更重要! @王小波(作家)<br>
+编程的艺术就是处理复杂性的艺术 @Edsger Dijkstra (图灵奖得主)<br>
+简单是可靠的先决条件 Simplicity is prerequisite for reliability. @Edsger Dijkstra (图灵奖得主)<br>
+从不同的层次审视你的设计<br>
+过早的优化是万恶之源 Premature optimization is the root of all evil. @Donald Knuth (图灵奖得主 算法大牛)<br>
+自由不是想做什么就做什么; 自由是教会你不想做什么就可以不做什么!@&lt;实践理性批判&gt;康德 (哲学家 思想家)</p>
+]]></content>
+      <tags>
+        <tag>quote</tag>
+      </tags>
+  </entry>
 </search>
